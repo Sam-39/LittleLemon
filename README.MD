@@ -11,7 +11,7 @@ Password: sam@2023
 
 # API ROUTES TO TEST:
 
-/restaurant/menu/
-/restaurant/menu/1
-/auth/users/
-/auth/token/login
+/restaurant/menu/  
+/restaurant/menu/1  
+/auth/users/  
+/auth/token/login  
