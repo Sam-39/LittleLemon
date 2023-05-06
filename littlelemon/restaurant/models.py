@@ -6,7 +6,7 @@ from django.utils import timezone
 class Booking(models.Model):
     name = models.CharField(max_length=255)
     no_of_guests = models.IntegerField(default=6)
-    booking_date = models.DateField(default=timezone.now)
+    booking_date = models.DateTimeField()
 
 
 class Menu(models.Model):
